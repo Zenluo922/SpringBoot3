@@ -1,0 +1,24 @@
+myapp:
+  a:
+    username: jack
+    password: 123456
+    age: 20
+    gender: true
+
+app:
+  xyz:
+    name: lucy
+    address:
+      city: Beijing
+      street: Chaoyang
+
+app2:
+  abc:
+    name:
+      - jack
+      - lucy
+
+other:
+  abc:
+    city: BJ
+    street: tongzhouqu

@@ -1,0 +1,5 @@
+myapp:
+  username: lucy
+  email: lucy@123.com
+  age: 60
+  gender: false
