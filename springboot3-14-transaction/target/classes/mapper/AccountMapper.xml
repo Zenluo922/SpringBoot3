@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.powernode.transaction.repository.AccountMapper">
+    <update id="update">
+        update  t_act set balance = #{balance} where act_no = #{actNo}
+    </update>
+    <select id="selectByActNo" resultType="com.powernode.transaction.bean.Account">
+        select * from t_act where act_no = #{actNo}
+    </select>
+</mapper>

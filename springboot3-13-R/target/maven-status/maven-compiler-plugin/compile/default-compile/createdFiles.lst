@@ -1,0 +1,7 @@
+com\powernode\springboot\result\R$RBuilder.class
+com\powernode\springboot\bean\Vip.class
+com\powernode\springboot\dao\VipMapper.class
+com\powernode\springboot\service\impl\VipServiceImpl.class
+com\powernode\springboot\Springboot313RApplication.class
+com\powernode\springboot\result\R.class
+com\powernode\springboot\service\VipService.class
